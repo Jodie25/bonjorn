@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>bonjorn — Boulangerie artisanale au levain</title>
+<meta name="description" content="bonjorn, boulangerie artisanale spécialisée dans le levain. Du fait maison, des ingrédients locaux, de la gourmandise à prix accessible.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23f0b4d4'/><text x='50' y='68' font-size='56' font-weight='700' text-anchor='middle' fill='%23561020' font-family='Impact,sans-serif'>bj</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Symboles réutilisables -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="croissant" viewBox="0 0 120 70">
+    <path d="M6 44c2-14 14-26 30-30 8-2 16-2 24-2s16 0 24 2c16 4 28 16 30 30-4 6-10 8-16 6-4-1-6-4-8-6-6 2-14 3-22 3s-16-1-22-3c-2 2-4 5-8 6-6 2-12 0-16-6z" fill="#ffdd57" stroke="#561020" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M42 14c-2 10-2 22 0 34M60 12v38M78 14c2 10 2 22 0 34M24 24c4 8 5 16 3 24M96 24c-4 8-5 16-3 24" fill="none" stroke="#561020" stroke-width="3" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="star" viewBox="0 0 24 24">
+    <path d="M12 2.5l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.7 5.9 21.1l1.4-6.8L2.2 9.6l6.9-.8z" fill="#ffdd57" stroke="#561020" stroke-width="1.6" stroke-linejoin="round"/>
+  </symbol>
+</svg>
+
+<header class="hero">
+  <div class="wrap">
+    <svg class="croissant" viewBox="0 0 120 70" aria-hidden="true"><use href="#croissant"/></svg>
+    <h1 class="logo">bonjorn</h1>
+    <p class="sub">et bon appétit.</p>
+    <div class="tags">
+      <span class="tag">Boulangerie artisanale</span>
+      <span class="tag">Spécialisée dans le levain</span>
+    </div>
+  </div>
+</header>
+
+<nav class="circles" aria-label="Navigation">
+  <div class="wrap">
+    <ul>
+      <li><a href="#produits"><span class="circle"><svg viewBox="0 0 120 70"><use href="#croissant"/></svg></span><span class="lbl">Produits</span></a></li>
+      <li><a href="#apropos"><span class="circle"><span class="logo">bj</span></span><span class="lbl">À propos</span></a></li>
+      <li><a href="#coulisse"><span class="circle">
+        <svg viewBox="0 0 120 40"><rect x="22" y="8" width="76" height="24" rx="12" fill="#ffdd57" stroke="#561020" stroke-width="5"/><rect x="2" y="12" width="22" height="16" rx="8" fill="#561020"/><rect x="96" y="12" width="22" height="16" rx="8" fill="#561020"/></svg>
+      </span><span class="lbl">Coulisse</span></a></li>
+      <li><a href="#avis"><span class="circle"><svg viewBox="0 0 24 24"><use href="#star"/></svg></span><span class="lbl">Avis client</span></a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="about" id="apropos">
+  <div class="wrap about-grid">
+    <div>
+      <div class="eyebrow">À propos</div>
+      <div class="name-card">
+        <span class="logo">bonjorn</span>
+        <p>signifie bonjour en patois auvergnat</p>
+      </div>
+    </div>
+    <div>
+      <h2>Une boulangerie artisanale, spécialisée dans le levain.</h2>
+      <ul>
+        <li>Du fait maison</li>
+        <li>Des ingrédients locaux</li>
+        <li>De la gourmandise à prix accessible</li>
+      </ul>
+      <div class="hours">
+        <h3>Horaires</h3>
+        <div class="row"><span>Du lundi au samedi</span><span class="t">6h30 - 19h30</span></div>
+        <div class="row"><span>Dimanche</span><span class="t">7h00 - 13h00</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="carte" id="produits">
+  <div class="wrap">
+    <div class="eyebrow">Produits</div>
+    <h2 class="big">La carte</h2>
+
+    <div class="box">
+      <h3>Nos sandwichs classiques</h3>
+      <div class="body cols">
+        <div>
+          <div class="item"><div class="top"><span>Le jambon-beurre</span><span>5,50 €</span></div><p>Jambon blanc, beurre, cornichons</p></div>
+          <div class="item"><div class="top"><span>Le Cantal</span><span>6,00 €</span></div><p>Jambon cru, cantal, beurre</p></div>
+          <div class="item"><div class="top"><span>Le thon-œuf</span><span>6,00 €</span></div><p>Thon, œuf dur, tomate, salade</p></div>
+        </div>
+        <div>
+          <div class="item"><div class="top"><span>Le poulet-crudités</span><span>6,50 €</span></div><p>Poulet rôti, salade, tomate, mayonnaise</p></div>
+          <div class="item"><div class="top"><span>Le Saint-Nectaire</span><span>6,50 €</span></div><p>Jambon blanc, saint-nectaire, cornichons</p></div>
+          <div class="item"><div class="top"><span>Le fourme-noix</span><span>6,50 €</span></div><p>Poulet, fourme d'Ambert, noix, miel</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div class="box">
+        <h3>Végétariens</h3>
+        <div class="body">
+          <div class="item"><div class="top"><span>Le chèvre-miel</span><span>6,00 €</span></div><p>Fromage de chèvre, miel, noix, roquette</p></div>
+          <div class="item"><div class="top"><span>Le veggie</span><span>6,00 €</span></div><p>Houmous, légumes grillés, roquette</p></div>
+          <div class="item"><div class="top"><span>Le mozza-pesto</span><span>5,50 €</span></div><p>Mozzarella, tomate, pesto, basilic</p></div>
+        </div>
+      </div>
+      <div class="box">
+        <h3>Salades</h3>
+        <div class="body">
+          <div class="item"><div class="top"><span>La César</span><span>8,00 €</span></div><p>Poulet, salade, parmesan, croûtons, sauce césar</p></div>
+          <div class="item"><div class="top"><span>L'Auvergnate</span><span>8,50 €</span></div><p>Lentilles, saint-nectaire, lardons, vinaigrette à la noix</p></div>
+          <div class="item"><div class="top"><span>La fraîcheur</span><span>7,50 €</span></div><p>Quinoa, légumes croquants, feta, citron</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <h3>Boissons</h3>
+      <div class="body drinks">
+        <div class="d"><span>Eau plate</span><span>1,50 €</span></div>
+        <div class="d"><span>Eau pétillante</span><span>2,00 €</span></div>
+        <div class="d"><span>Coca-Cola</span><span>2,50 €</span></div>
+        <div class="d"><span>Fanta</span><span>2,50 €</span></div>
+        <div class="d"><span>Orangina</span><span>2,50 €</span></div>
+        <div class="d"><span>Ice-tea</span><span>2,50 €</span></div>
+        <div class="d"><span>Oasis</span><span>2,50 €</span></div>
+        <div class="d"><span>Café</span><span>1,50 €</span></div>
+      </div>
+    </div>
+
+    <div class="formules">
+      <div class="formule y">
+        <h3>Formule Sandoc'</h3>
+        <p class="em">La formule du midi</p>
+        <div class="price">12,50 €</div>
+        <p>1 sandwich ou salade (produit du mois)<br>+ 1 boisson (au choix)<br>+ 1 dessert (au choix)</p>
+      </div>
+      <div class="formule w">
+        <h3>Formule sandwich + boisson</h3>
+        <p>Choisissez le sandwich et la boisson que vous voulez dans toute la carte.</p>
+        <div class="push">Prix selon votre choix</div>
+      </div>
+    </div>
+
+    <div class="banner">Tous nos sandwichs existent en version sans gluten</div>
+  </div>
+</section>
+
+<section class="coulisse" id="coulisse">
+  <div class="wrap">
+    <div class="eyebrow">Coulisse</div>
+    <h2>Dans le fournil</h2>
+    <p class="intro">Pétrissage, fermentation du levain, cuisson : découvrez comment naissent nos pains chaque matin.</p>
+    <div class="gallery">
+      <!-- Remplacer chaque .ph par : <img src="images/xxx.jpg" alt="..."> -->
+      <div class="ph">Photo<br>à venir</div>
+      <div class="ph">Photo<br>à venir</div>
+      <div class="ph">Photo<br>à venir</div>
+    </div>
+  </div>
+</section>
+
+<section class="avis" id="avis">
+  <div class="wrap">
+    <div class="eyebrow">Avis client</div>
+    <h2>Votre avis<br>nous fait<br>grandir</h2>
+    <div class="avis-card">
+      <div class="stars" aria-label="5 étoiles">
+        <svg viewBox="0 0 24 24"><use href="#star"/></svg><svg viewBox="0 0 24 24"><use href="#star"/></svg><svg viewBox="0 0 24 24"><use href="#star"/></svg><svg viewBox="0 0 24 24"><use href="#star"/></svg><svg viewBox="0 0 24 24"><use href="#star"/></svg>
+      </div>
+      <p>Un mot sur notre pain auvergnat, nos sandwichs ou nos gâteaux ? Dites-nous ce que vous en avez pensé.</p>
+      <a class="btn" href="mailto:bonjour@bonjorn.example?subject=Mon%20avis%20sur%20bonjorn">Écrivez-nous en message</a>
+    </div>
+    <div class="thanks"><span>Merci d'avance !</span><span class="logo">bonjorn</span></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="logo">bonjorn</div>
+    <p>Boulangerie artisanale · Du lundi au samedi 6h30–19h30 · Dimanche 7h00–13h00</p>
+    <p>Site fictif réalisé dans le cadre d'un projet de création.</p>
+  </div>
+</footer>
+
+</body>
+</html>
